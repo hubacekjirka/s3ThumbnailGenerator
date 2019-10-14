@@ -34,7 +34,7 @@ provider:
        - "s3:*"
      Resource: "*"
   environment:
-     THUMBNAIL_SIZE: "300"
+     THUMBNAIL_SIZE: "250"
 
 custom:
   bucket: s3-thumbnail-generator-python3
